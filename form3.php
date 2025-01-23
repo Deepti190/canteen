@@ -4,7 +4,7 @@ include "navbardashboard.php";
 // ****************categories backened****************
 if(isset($_POST['submit']))
 {
-    $name=$_POST['un'];
+    $name=$_POST['un1'];
     $status=$_POST['sta'];
 
     $sql="insert into categories(cname,cstatus) values('$name','$status')";
